@@ -126,12 +126,12 @@
   cursor: pointer;
   position: absolute;
   text-align: center;
-  width: 200px;
+  width: 100px;
   height: 200px;
-  left: calc(50% - 100px);
+  left: calc(50% - 50px);
   top: calc(50% - 100px);
   background: #fff no-repeat center center;
-  background-size: 190px;
+  background-size: 90px;
   border-radius: 6px;
   box-shadow: 0px 2px 7px rgba(0,0,0,0.3);
   opacity: 0;
@@ -151,7 +151,7 @@
 #donate #github {
   width: 24px;
   height: 24px;
-  left: calc(50% + 135px);
+  left: calc(50% + 67px);
   top: calc(50% - 30px);
   background: no-repeat center center url(../images/github.svg);
   background-size: contain;
@@ -165,6 +165,7 @@
 #donate [data-footnote]:hover {
   overflow: visible;
 }
+/*
 #donate [data-footnote]::before,
 #donate [data-footnote]::after {
   position: absolute;
@@ -193,7 +194,8 @@
   border-color: rgba(100,100,100,0.8) transparent transparent transparent;
   top: 0;
   left: 37px;
-}
+}*/
+
 #donate [data-footnote]:hover::before,
 #donate [data-footnote]:hover::after {
   opacity: 1;
