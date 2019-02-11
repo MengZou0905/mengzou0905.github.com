@@ -24,9 +24,9 @@
 
 
   $(document).ready(function() {
-	  var QRBox	=	$('#QRBox');
+	  //var QRBox	=	$('#QRBox');
 	  var MainBox	=	$('.MainBox');
-	  var BTCQR	=	$('#BTCQR');
+	  //var BTCQR	=	$('#BTCQR');
 	  var AliPayQR	=	$('#AliPayQR');
 	  var WeChatQR	=	$('#WeChatQR');
     var currentQR;
@@ -41,10 +41,11 @@
 
 	  $('#donateBox>li').click(function(event) {
 		  var thisID	=	$(this).attr('id');
-		  if (thisID === 'BTC') {
-			  showQR(BTCQR);
-			  new ClipboardJS('#BTCBn');
-		  } else if (thisID === 'AliPay') {
+		  //if (thisID === 'BTC') {
+			  //showQR(BTCQR);
+			  //new ClipboardJS('#BTCBn');
+		  //}
+      if (thisID === 'AliPay') {
 			  showQR(AliPayQR);
 		  } else if (thisID === 'WeChat') {
 			  showQR(WeChatQR);
