@@ -93,7 +93,7 @@
 #donateBox a {
   display: block;
 }
-#donateBox #PayPal {
+/*#donateBox #PayPal {
   background-image: url(../images/paypal.svg);
 }
 #donateBox>#BTC {
@@ -106,7 +106,7 @@
 #BTC>button {
   opacity: 0;
   cursor: pointer;
-}
+}*/
 #donateBox #AliPay {
   background-image: url(../images/alipay.svg);
 }
@@ -139,7 +139,7 @@
   transform-origin: center center;
   overflow: hidden;
 }
-#donate #btc-key {
+/*#donate #btc-key {
   opacity: 0;
   width: 2px;
   height: 8px;
@@ -156,7 +156,7 @@
   background-size: contain;
   opacity: 0.3;
   transform: rotatez(15deg );
-}
+}*/
 #donate [data-footnote] {
   position: relative;
   overflow: hidden;
