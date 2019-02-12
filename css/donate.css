@@ -107,7 +107,7 @@
   opacity: 0;
   cursor: pointer;
 }
-#donateBox>#AliPay {
+#donateBox #AliPay {
   background-image: url(../images/alipay.svg);
   line-height: 28px;
 }
