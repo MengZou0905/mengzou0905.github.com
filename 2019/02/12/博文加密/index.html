@@ -12,18 +12,18 @@
   
   <title>博文加密 | 己亥孟陬</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="有一些博文不便公开，需要设置密码。 ##hexo插件hexo-blog-encrypt可以实现这个功能。github上的说明运行不成功，具体使用方法如下：  安装npm install -g --save hexo-blog-encrypt 设置根目录下的_config.yml加入encrypt:   enable: true 设置根目录下的package.json加入&amp;quot;hexo-blo">
+  <meta name="description" content="有一些博文不便公开，需要设置密码。 hexo插件hexo-blog-encrypt可以实现这个功能。按照github上的说明运行不成功，具体使用方法如下，亲测：  安装 install -g --save hexo-blog-encrypt```123* 设置根目录下的_config.yml加入```encrypt:    enable: true  设置根目录下的package.json加入&quot;^">
 <meta name="keywords" content="技术笔记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博文加密">
 <meta property="og:url" content="http://yoursite.com/2019/02/12/博文加密/index.html">
 <meta property="og:site_name" content="己亥孟陬">
-<meta property="og:description" content="有一些博文不便公开，需要设置密码。 ##hexo插件hexo-blog-encrypt可以实现这个功能。github上的说明运行不成功，具体使用方法如下：  安装npm install -g --save hexo-blog-encrypt 设置根目录下的_config.yml加入encrypt:   enable: true 设置根目录下的package.json加入&amp;quot;hexo-blo">
+<meta property="og:description" content="有一些博文不便公开，需要设置密码。 hexo插件hexo-blog-encrypt可以实现这个功能。按照github上的说明运行不成功，具体使用方法如下，亲测：  安装 install -g --save hexo-blog-encrypt```123* 设置根目录下的_config.yml加入```encrypt:    enable: true  设置根目录下的package.json加入&quot;^">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-02-13T01:50:29.709Z">
+<meta property="og:updated_time" content="2019-02-13T01:58:03.523Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="博文加密">
-<meta name="twitter:description" content="有一些博文不便公开，需要设置密码。 ##hexo插件hexo-blog-encrypt可以实现这个功能。github上的说明运行不成功，具体使用方法如下：  安装npm install -g --save hexo-blog-encrypt 设置根目录下的_config.yml加入encrypt:   enable: true 设置根目录下的package.json加入&amp;quot;hexo-blo">
+<meta name="twitter:description" content="有一些博文不便公开，需要设置密码。 hexo插件hexo-blog-encrypt可以实现这个功能。按照github上的说明运行不成功，具体使用方法如下，亲测：  安装 install -g --save hexo-blog-encrypt```123* 设置根目录下的_config.yml加入```encrypt:    enable: true  设置根目录下的package.json加入&quot;^">
 <meta name="twitter:creator" content="@GeekPlux">
   
     <link rel="alternate" href="/atom.xml" title="己亥孟陬" type="application/atom+xml">
@@ -107,16 +107,15 @@
     <div class="article-entry typo" itemprop="articleBody">
       
         <p>有一些博文不便公开，需要设置密码。</p>
-<p>##hexo插件<br><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" target="_blank" rel="noopener">hexo-blog-encrypt</a>可以实现这个功能。github上的说明运行不成功，具体使用方法如下：</p>
+<h2 id="hexo插件"><a href="#hexo插件" class="headerlink" title="hexo插件"></a>hexo插件</h2><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" target="_blank" rel="noopener">hexo-blog-encrypt</a>可以实现这个功能。按照github上的说明运行不成功，具体使用方法如下，亲测：</p>
 <ul>
-<li>安装<br><code>npm install -g --save hexo-blog-encrypt</code></li>
-<li>设置根目录下的_config.yml<br>加入<code>encrypt:
-  enable: true</code></li>
-<li>设置根目录下的package.json<br>加入<code>&quot;hexo-blog-encrypt&quot;: &quot;^2.0.10&quot;</code></li>
-<li>修改需要被加密地博文<br>开头处加入 <code>password: abc
-abstract: 本文访问需要密码
-message: 本文访问需要密码</code><br>##原理<br>待补充</li>
+<li><p>安装</p>
+<figure class="highlight plain"><figcaption><span>install -g --save hexo-blog-encrypt```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 设置根目录下的_config.yml</span><br><span class="line">加入```encrypt:</span><br><span class="line">    enable: true</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置根目录下的package.json<br>加入<figure class="highlight plain"><figcaption><span>"^2.0.10"```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* 修改需要被加密地博文</span><br><span class="line">开头处加入 </span><br><span class="line">```password: abc</span><br><span class="line">abstract: 本文访问需要密码</span><br><span class="line">message: 本文访问需要密码</span><br></pre></td></tr></table></figure></p>
+</li>
 </ul>
+<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>待补充</p>
 
       
       
@@ -142,7 +141,7 @@ message: 本文访问需要密码</code><br>##原理<br>待补充</li>
         <li>
           <span class="label">Published Date:</span>
           <a href="/2019/02/12/博文加密/" class="article-date">
-  <time datetime="2019-02-12T01:35:01.000Z" itemprop="datePublished">2019-02-12</time>
+  <time datetime="2019-02-12T02:35:01.000Z" itemprop="datePublished">2019-02-12</time>
 </a>
 
         </li>
